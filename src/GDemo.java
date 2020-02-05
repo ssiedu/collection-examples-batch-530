@@ -10,4 +10,7 @@ public class GDemo<T> {
         return null;
     }
     
+    public static void main(String args[]){
+        GDemo<String> ob=new GDemo<>();
+    }
 }
